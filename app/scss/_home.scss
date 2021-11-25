@@ -1,0 +1,32 @@
+.home{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:2rem;
+    background: $pink;
+  
+    .image{
+      flex:1 1 42rem;
+      margin-top: 5rem;
+  
+      img{
+        width: 100%;
+        animation: floating 4s linear infinite;
+      }
+    }
+
+    .content{
+        flex:1 1 42rem;
+    
+        h3{
+          font-size: 6rem;
+        }
+    
+        p{
+          font-size: 2rem;
+          padding:1rem 0;
+          line-height: 2;
+        }
+      }
+    }

@@ -1,0 +1,30 @@
+.about{
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:2rem;
+  
+    .image{
+      flex:1 1 42rem;
+  
+      img{
+        width: 100%;
+      }
+    }
+  
+    .content{
+      flex:1 1 42rem;
+  
+      h3{
+        font-size: 4rem;
+        line-height: 1.5;
+      }
+  
+      p{
+        font-size: 1.7rem;
+        line-height: 2;
+        padding:1rem 0;
+      }
+    }
+  }

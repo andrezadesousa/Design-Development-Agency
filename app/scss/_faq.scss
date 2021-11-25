@@ -1,0 +1,53 @@
+.faq{
+    background:$blue;
+  
+    .accordion-container{
+      margin:1rem auto;
+      max-width: 70rem;
+  
+      .accordion{
+        margin:1rem 0;
+        background-color: $white;
+        border-radius: .5rem;
+  
+        &.active{
+  
+          .accordion-heading i{
+            transform: rotate(180deg);
+          }
+  
+          .accordion-content{
+            display: block;
+          }
+        }
+  
+        .accordion-heading{
+          padding:2rem;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap:1rem;
+          cursor: pointer;
+          
+          h3{
+            font-size: 2.2rem;
+            line-height: 1.5;
+          }
+  
+          i{
+            font-size: 2rem;
+            transition: .2s linear;
+          }
+        }
+  
+        .accordion-content{
+          padding:2rem;
+          padding-top: 0;
+          line-height: 2;
+          font-size: 1.7rem;
+          display: none;
+          animation: fadeUp .2s linear backwards;
+        }
+      }
+    }
+  }

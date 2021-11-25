@@ -1,0 +1,15 @@
+@keyframes fadeUp {
+    0%{
+      opacity: 0;
+      transform: translateY(4rem);
+    }
+}
+
+@keyframes floating {
+    0%, 100%{
+      transform: translateY(0rem);
+    }
+    50%{
+      transform: translateY(-4rem);
+    }
+}

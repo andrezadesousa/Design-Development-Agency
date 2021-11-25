@@ -1,0 +1,42 @@
+.features{
+
+    .box-container .box{
+      display: flex;
+      flex-wrap: wrap;
+      gap:2rem;
+      align-items: center;
+      min-height: 60vh;
+      margin-bottom: 3rem;
+  
+      &:last-child{
+        margin-bottom: 0;
+      }
+  
+      &:nth-child(even){
+        flex-flow: row-reverse wrap;
+      }
+  
+      .image{
+        flex:1 1 42rem;
+  
+        img{
+          width: 100%;
+        }
+      }
+  
+      .content{
+        flex: 1 1 42rem;
+  
+        h3{
+          font-size: 3rem;
+          line-height: 1.5;
+        }
+  
+        p{
+          padding:1.5rem 0;
+          line-height: 2;
+          font-size: 1.7rem;
+        }
+      }
+    }
+  }
